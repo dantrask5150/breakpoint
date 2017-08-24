@@ -15,6 +15,7 @@
 		807E2AF01F48F8BE00602782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807E2AEF1F48F8BE00602782 /* Assets.xcassets */; };
 		807E2AF31F48F8BE00602782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807E2AF11F48F8BE00602782 /* LaunchScreen.storyboard */; };
 		807E2B001F48FA7C00602782 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 807E2AFF1F48FA7C00602782 /* GoogleService-Info.plist */; };
+		809D9B141F4E7C340087C0F4 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809D9B131F4E7C340087C0F4 /* UIViewControllerExt.swift */; };
 		80AB531E1F4D48A800D7B9BB /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AB531D1F4D48A800D7B9BB /* Group.swift */; };
 		80B1DB661F4BAC7D0017A374 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B1DB651F4BAC7D0017A374 /* UserCell.swift */; };
 		80CD62261F4BBAEE00D272B4 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CD62251F4BBAEE00D272B4 /* CreateGroupsVC.swift */; };
@@ -47,6 +48,7 @@
 		807E2AF21F48F8BE00602782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		807E2AF41F48F8BE00602782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		807E2AFF1F48FA7C00602782 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		809D9B131F4E7C340087C0F4 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		80AB531D1F4D48A800D7B9BB /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		80B1DB651F4BAC7D0017A374 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		80CD62251F4BBAEE00D272B4 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateGroupsVC.swift; path = "../../../../../Downloads/breakpoint 3/breakpoint/Controller/CreateGroupsVC.swift"; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				80FC23921F4AD08200E119D7 /* UIViewExt.swift */,
+				809D9B131F4E7C340087C0F4 /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				80FC238F1F4ABAF700E119D7 /* MeVC.swift in Sources */,
 				804083201F4BFD9B005B764C /* GroupCell.swift in Sources */,
 				80FC23851F4A7A8700E119D7 /* AuthVC.swift in Sources */,
+				809D9B141F4E7C340087C0F4 /* UIViewControllerExt.swift in Sources */,
 				807E2AEB1F48F8BE00602782 /* GroupsVC.swift in Sources */,
 				80FA429B1F4D82AF0021400F /* GroupFeedVC.swift in Sources */,
 				80FA42991F4D7D660021400F /* GroupFeedCell.swift in Sources */,
